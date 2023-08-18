@@ -104,7 +104,7 @@ parser.add_argument('--head', default=20, type=int, help='Number of heads')
 # similarity measures
 parser.add_argument('--graph_type', choices=['KNN', 'PKNN'], default='KNN')
 # KNN
-parser.add_argument('--k', type=int, help='Number of neighbors for graph', default=5)
+parser.add_argument('--k', type=int, help='Number of neighbors for graph', default=10)
 # set threshold value
 parser.add_argument('--graph_distance_cutoff_num_stds', type=float, default=0.0,
                     help='Number of standard deviations to add to the mean of distances/correlation values.')
