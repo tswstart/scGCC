@@ -69,5 +69,5 @@ python preprocess/preprocess_data.py --input_h5_path="./data/original/yan.h5" --
 ### 3. Apply scGCC
 
 ```python
-python scGCC.py --input_h5ad_path="data/preprocessed/yan_preprocessed.h5ad" --epochs 100 --lr 1 -- atch_size 512 --low_dim 256 --aug_prob 0.5
+python scGCC.py --input_h5ad_path="data/preprocessed/yan_preprocessed.h5ad" --epochs 100 --lr 1 --batch_size 512 --low_dim 256 --aug_prob 0.5
 ```
